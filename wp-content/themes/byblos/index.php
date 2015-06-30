@@ -28,7 +28,7 @@ get_header();
                             <h2 class="post-title"><?php the_title(); ?></h2>
                         </a>
                         
-<!--                        <?php if( 'on' == of_get_option('sc_blog_featured', 'on')) : ?>
+                       <?php if( 'on' == of_get_option('sc_blog_featured', 'on')) : ?>
                         <div class="post-thumb col-sm-4">
                             <a href="<?php the_permalink(); ?>">
                                 <?php the_post_thumbnail('large'); ?>
@@ -48,7 +48,7 @@ get_header();
                             <div class="text-right">
                                 <a class="button button-primary" href="<?php the_permalink(); ?>">Read More</a>
                             </div>                        
-                        </div>-->
+                        </div>
                     </div>
                 <?php endwhile; ?>
             <?php else : ?>

@@ -107,7 +107,7 @@ function optionsframework_custom_scripts() { ?>
 
             if (jQuery('#example_showhidden:checked').val() !== undefined) {
                 jQuery('#section-example_text_hidden').show();
-            }
+            }wordpress jquery autohide
 
         });
     </script>
