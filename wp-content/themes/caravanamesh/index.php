@@ -19,7 +19,7 @@ get_header(); ?>
 			headers : '.articleInfo',
 			vertical : true,
 			activeSlideAutoHeight : true,
-			inactiveSlideSize : 70,
+			inactiveSlideSize : 80,
 			activeSlideClass : 'activeItem',
 			preloadImages : false,
 			responsive : false
