@@ -255,6 +255,7 @@ function caravanamesh_categorized_blog() {
 /**
  * Flush out the transients used in caravanamesh_categorized_blog.
  */
+ /* Prueba y error
 function caravanamesh_category_transient_flusher() {
 	if ( defined( 'DOING_AUTOSAVE' ) && DOING_AUTOSAVE ) {
 		return;
@@ -264,3 +265,24 @@ function caravanamesh_category_transient_flusher() {
 }
 add_action( 'edit_category', 'caravanamesh_category_transient_flusher' );
 add_action( 'save_post',     'caravanamesh_category_transient_flusher' );
+
+function caravanamesh_accordion() { ?>
+	
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('.latestPosts').jAccordion({
+			headers : '.articleInfo',
+			vertical : true,
+			activeSlideAutoHeight : true,
+			inactiveSlideSize : 58,
+			activeSlideClass : 'activeItem',
+			preloadImages : false,
+			responsive : false
+		});
+	});
+</script>
+	
+	<?php } //end function iwmp_add_gallery_script()
+		
+add_action( 'wp_enqueue_scripts', 'caravanamesh_accordion' );
+*/

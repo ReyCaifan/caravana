@@ -7,10 +7,13 @@
 }
 .latestPosts {
     float: right;
-    /*max-width: 300px;*/
+    max-width: 100%;
     outline: medium none !important;
     position: relative;
-    padding: 10px 15px 10px 15px;
+    padding-right:15px;
+    padding-top:10px;
+    padding-bottom:10px;
+    
 }
 .latestPosts .jAccordion-slidesWrapper {
     height: 100%;
@@ -44,11 +47,11 @@
     background-color: #699120;
 }
 .latestPosts li:hover .articleInfo {
-    background: rgba(0, 0, 0, 0) url("../images/arrow_hover.png") no-repeat scroll right center;
+    background: rgba(0, 0, 0, 0) url("../images/arrow_hover.png") no-repeat scroll 97.5% center;
     background-color: #699120;
 }
 .latestPosts .jAccordion-slide.activeItem .articleInfo {
-    background: rgba(0, 0, 0, 0) url("../images/arrow_active.png") no-repeat scroll right center;
+    background: #699120 url("../images/arrow_active.png") no-repeat scroll 97.5% center;
     border-bottom-color: #ff0000;
 }
 .latestPosts .articleInfo h1 a {
@@ -119,7 +122,9 @@
 }   
 .contenido-acordion{
 max-height:150px;
+height:150px;
+background-color: #f0f0f0;
 }
 .jAccordion-slide article{
-	background: transparent;
+	background-color: transparent;
 }

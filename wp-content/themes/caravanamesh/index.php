@@ -12,7 +12,20 @@
  */
 
 get_header(); ?>
-
+<script type="text/javascript">
+					var $j = jQuery.noConflict();
+	$j(document).ready(function() {
+		$j('.latestPosts').jAccordion({
+			headers : '.articleInfo',
+			vertical : true,
+			activeSlideAutoHeight : true,
+			inactiveSlideSize : 70,
+			activeSlideClass : 'activeItem',
+			preloadImages : false,
+			responsive : false
+		});
+	});
+</script>
 <div class="site-content-wrapper">
 	<div id="content" class="site-content">
         <div class="col-md-12 item-home">

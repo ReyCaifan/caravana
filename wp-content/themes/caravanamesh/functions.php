@@ -160,11 +160,11 @@ function caravanamesh_scripts() {
 	wp_enqueue_script( 'caravanamesh-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20130115', true );
 	
 	wp_enqueue_script('caravanamesh-script', get_template_directory_uri() . '/js/script.js', array('jquery', 'jquery-ui-core'));
-	/* jaccordion muchos problemas
+	
 	wp_enqueue_script('easing', get_template_directory_uri() . '/js/jquery.easing.1.3.js', array('jquery'));
 	
 	wp_enqueue_script('jAccordion', get_template_directory_uri() . '/js/jquery.jAccordion.min.js', array('jquery','easing'));
-	*/
+	
     wp_enqueue_style('fontawesome', get_template_directory_uri() . '/css/font-awesome.min.css', array());
 
     wp_enqueue_style('accordion', get_template_directory_uri() . '/css/acco.css', array());
